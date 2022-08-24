@@ -1,0 +1,74 @@
+object Form3: TForm3
+  Left = 402
+  Height = 293
+  Top = 469
+  Width = 301
+  BorderStyle = bsDialog
+  Caption = 'WINDOWS 11 IS SHIT!!!'
+  ClientHeight = 293
+  ClientWidth = 301
+  FormStyle = fsSystemStayOnTop
+  Position = poDesktopCenter
+  LCLVersion = '2.2.0.4'
+  object RadioButton1: TRadioButton
+    Left = 32
+    Height = 19
+    Top = 31
+    Width = 120
+    Caption = 'Windows 11 Home'
+    OnClick = RadioButton1Click
+    TabOrder = 0
+  end
+  object RadioButton2: TRadioButton
+    Left = 32
+    Height = 19
+    Top = 64
+    Width = 210
+    Caption = 'Windows 11 Home Single Language'
+    OnClick = RadioButton2Click
+    TabOrder = 1
+  end
+  object RadioButton3: TRadioButton
+    Left = 32
+    Height = 19
+    Top = 96
+    Width = 105
+    Caption = 'Windows 11 Pro'
+    OnClick = RadioButton3Click
+    TabOrder = 2
+  end
+  object RadioButton4: TRadioButton
+    Left = 32
+    Height = 19
+    Top = 131
+    Width = 160
+    Caption = 'Windows 11 For Education'
+    OnClick = RadioButton4Click
+    TabOrder = 3
+  end
+  object RadioButton5: TRadioButton
+    Left = 32
+    Height = 19
+    Top = 168
+    Width = 113
+    Caption = 'Windows 11 LTSC'
+    OnClick = RadioButton5Click
+    TabOrder = 4
+  end
+  object RadioButton6: TRadioButton
+    Left = 32
+    Height = 19
+    Top = 208
+    Width = 189
+    Caption = 'Windows 11 not existing edition'
+    OnClick = RadioButton6Click
+    TabOrder = 5
+  end
+  object Label1: TLabel
+    Left = 96
+    Height = 15
+    Top = 256
+    Width = 71
+    Caption = 'Select edition'
+  end
+end

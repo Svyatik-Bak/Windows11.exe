@@ -1,0 +1,29 @@
+object Form6: TForm6
+  Left = 792
+  Height = 82
+  Top = 238
+  Width = 175
+  BorderStyle = bsDialog
+  Caption = 'Form6'
+  ClientHeight = 82
+  ClientWidth = 175
+  FormStyle = fsSystemStayOnTop
+  Position = poDesktopCenter
+  LCLVersion = '2.2.0.4'
+  object Label1: TLabel
+    Left = 24
+    Height = 15
+    Top = 24
+    Width = 131
+    Caption = 'This feature not working.'
+  end
+  object Button1: TButton
+    Left = 16
+    Height = 25
+    Top = 48
+    Width = 144
+    Caption = 'Select other RadioButton'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+end

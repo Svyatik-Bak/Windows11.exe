@@ -1,0 +1,29 @@
+object Form4: TForm4
+  Left = 683
+  Height = 83
+  Top = 651
+  Width = 242
+  BorderStyle = bsDialog
+  Caption = 'Form4'
+  ClientHeight = 83
+  ClientWidth = 242
+  FormStyle = fsSystemStayOnTop
+  Position = poDesktopCenter
+  LCLVersion = '2.2.0.4'
+  object Label1: TLabel
+    Left = 104
+    Height = 15
+    Top = 16
+    Width = 29
+    Caption = 'Nope'
+  end
+  object Button1: TButton
+    Left = 32
+    Height = 25
+    Top = 48
+    Width = 176
+    Caption = 'Select other edition'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+end
